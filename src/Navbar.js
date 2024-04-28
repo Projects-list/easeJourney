@@ -143,12 +143,12 @@ const Navbar =()=>{
             </Link>
             {booking && <Booking />}
           </li>
-          {/* <li>
-                    <Link to='http://localhost:8000/info/' target='blank' rel="noreferrer" className='nav-links' onClick={closeMobileMenu}>
+          <li>
+                    <Link to='http://localhost:5000' target='blank' rel="noreferrer" className='nav-links' onClick={closeMobileMenu}>
                     <i className='fas fa-caret-down' ><FiUsers size={20}/></i>
-              Govt. Official
+                    Travel Companion
             </Link>
-                </li> */}
+                </li>
                 {/* <li>
                     <Link to='http://localhost:8000/' target='blank' rel="noreferrer" className='nav-links' onClick={closeMobileMenu}>
                     <i className='fas fa-caret-down' ><FiUsers size={20}/></i>
