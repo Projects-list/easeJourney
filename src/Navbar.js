@@ -101,7 +101,7 @@ const Navbar =()=>{
               Home
             </Link>
                 </li>
-                <li
+                {/* <li
             className='nav-item'
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
@@ -114,7 +114,13 @@ const Navbar =()=>{
               NearBy <i className='fas fa-caret-down' ><FiArrowDown size={15}/></i>
             </Link>
             {dropdown && <Dropdown />}
-          </li>
+          </li> */}
+                   <li>
+                    <Link to='http://localhost:8000' target='blank' rel="noreferrer" className='nav-links' onClick={closeMobileMenu}>
+                    <i className='fas fa-caret-down' ></i>
+                    GI Products
+            </Link>
+                </li>
           <li
             className='nav-item'
             onMouseEnter={onMouseEnter1}
