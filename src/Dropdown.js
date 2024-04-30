@@ -84,7 +84,6 @@ const Transports=()=> {
 
 export {
     Dropdown,
-    Transports,
     Booking
 }
 

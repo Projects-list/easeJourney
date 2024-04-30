@@ -1,6 +1,7 @@
 import React,{useState, useEffect} from "react"
 import './Css/navbar.css'
 import Images from './images'
+import { MdOutlineShoppingCart } from "react-icons/md";
 import { Link } from 'react-router-dom'
 import { FiMenu, FiX, FiSun, FiMoon, FiHome, FiArrowDown, FiUsers } from "react-icons/fi"
 import {Booking} from "./Dropdown"
@@ -90,7 +91,7 @@ const Navbar =()=>{
     return(
         <nav className='NavbarItems'>
             <h1 className='logo'>
-            Ease Journey<img src={Images.India} alt='' /><i className='fab fa-react'></i>
+            Ease Journey  <img src='https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/383px-Flag_of_India.svg.png' alt='' /><i className='fab fa-react'></i>
                 </h1>
                
             <div className='menuicons' onClick={handleClick}><i>{Show ? <FiX size={20}/>: <FiMenu size={20}/>}</i></div>
@@ -115,12 +116,13 @@ const Navbar =()=>{
             </Link>
             {dropdown && <Dropdown />}
           </li> */}
-                   <li>
-                    <Link to='http://localhost:8000' target='blank' rel="noreferrer" className='nav-links' onClick={closeMobileMenu}>
-                    <i className='fas fa-caret-down' ></i>
-                    GI Products
+          <li>
+                    <Link to='/travel' target='blank' rel="noreferrer" className='nav-links' onClick={closeMobileMenu}>
+                    <i className='fas fa-caret-down' ><FiUsers size={20}/></i>
+                    Travel Companion
             </Link>
                 </li>
+                   
           {/* <li
             className='nav-item'
             onMouseEnter={onMouseEnter1}
@@ -150,9 +152,9 @@ const Navbar =()=>{
             {booking && <Booking />}
           </li>
           <li>
-                    <Link to='http://localhost:5000' target='blank' rel="noreferrer" className='nav-links' onClick={closeMobileMenu}>
-                    <i className='fas fa-caret-down' ><FiUsers size={20}/></i>
-                    Travel Companion
+                    <Link to='http://localhost:8000' target='blank' rel="noreferrer" className='nav-links' onClick={closeMobileMenu}>
+                    <i className='fas fa-caret-down' ><MdOutlineShoppingCart size={20}/></i>
+                    GI Products
             </Link>
                 </li>
                 {/* <li>

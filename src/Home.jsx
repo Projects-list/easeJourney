@@ -272,7 +272,7 @@ const Home = () =>{
                     <div className="video__content">
                         {/* <video src="https://www.youtube.com/embed/zc_iulZt-us?si=17kSqHVfx1OY0HiO" type="video/mp4" id="video-file" controls loop> */}
                         {/* </video> */}
-                        <iframe width="1000" height="600" src="https://www.youtube.com/embed/zc_iulZt-us?si=rhwmZpJtynnZkBs4&amp;controls=0" frameborder="0" allow="accelerometer; autoplay; loop; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="1000" height="600" src="https://www.youtube.com/embed/zc_iulZt-us?si=rhwmZpJtynnZkBs4&amp;controls" frameborder="0" allow="accelerometer; autoplay; loop; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
             </section>
