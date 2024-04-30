@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import indiaMap from './assets/svg/in.svg';
 import Navbar from './Navbar';
+import { Link } from 'react-router-dom'
 
 const statesData = [
   { name: 'Rajasthan', wikiLink: 'https://en.wikipedia.org/wiki/Rajasthan', cx: 256.7, cy: 320.8, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg/375px-East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg' },

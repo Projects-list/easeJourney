@@ -66,6 +66,7 @@ const Transports=()=> {
             return (
               <li key={index}>
                 <Link
+                  target='blank'
                   className={item.cName}
                   to={item.url}
                   onClick={() => setClick(false)}
