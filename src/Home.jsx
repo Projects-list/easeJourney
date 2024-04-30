@@ -2,10 +2,10 @@ import React from 'react'
 import { FiSun, FiFacebook, FiInstagram, FiYoutube, FiTwitter, FiArrowRightCircle, FiPhoneCall } from "react-icons/fi"
 import "./Css/styles.css"
 import Images from './images'
-import video from "./assets/video/video.mp4"
+// import video from "./assets/video/video.mp4"
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { Carousel } from 'react-responsive-carousel'
-import "./Css/swiper.css"
+// import "./Css/swiper.css"
 // import { Swiper, SwiperSlide } from 'swiper/react'
 
 // Import Swiper styles
@@ -69,7 +69,6 @@ const Home = () =>{
 
                 <div className="home__container container grid">
                     <div className="home__data">
-                        <span className="home__data-subtitle">Discover your place</span>
                         <h1 className="home__data-title">Explore The <br/> Best <b>Beautiful <br/> Places</b></h1>
                         <a href="/monument" className="button">Explore</a>
 
@@ -260,37 +259,7 @@ const Home = () =>{
             </section> */}
 
            
-            <section className="experience section">
-                <h2 className="section__title">With Our Experience <br/> We Will Serve You</h2>
-
-                <div className="experience__container container grid">
-                    <div className="experience__content grid">
-                       
-                    </div>
-
-                    <div className="experience__img grid">
-                        <div className="experience__overlay">
-                            <a href='https://adventureisland.in/travel/' target='_blank' rel='noreferrer'>
-                            <img src={Images.al} alt="" className="experience__img-one"/></a>
-                        </div>
-                        
-                        <div className="experience__overlay">
-                        <a href='http://www.drizzlingland.com/' target='_blank' rel='noreferrer'>
-                            <img src={Images.dl} alt="" className="experience__img-two"/></a>
-                        </div>
-                        
-                        <div className="experience__overlay">
-                        <a href='https://www.eodindia.com/' target='_blank' rel='noreferrer'>
-                            <img src={Images.wow} alt="" className="experience__img-three"/></a>
-                        </div>
-                        <div className="experience__overlay">
-                        <a href='https://www.wastetowonderpark.com/' target='_blank' rel='noreferrer'>
-                            <img src={Images.eod} alt="" className="experience__img-four"/></a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
+            
            
             <section className="video section">
                 <h2 className="section__title">Video Tour</h2>
@@ -301,8 +270,9 @@ const Home = () =>{
                     </p>
 
                     <div className="video__content">
-                        <video src={video} type="video/mp4" id="video-file" controls loop>
-                        </video>
+                        {/* <video src="https://www.youtube.com/embed/zc_iulZt-us?si=17kSqHVfx1OY0HiO" type="video/mp4" id="video-file" controls loop> */}
+                        {/* </video> */}
+                        <iframe width="1000" height="600" src="https://www.youtube.com/embed/zc_iulZt-us?si=rhwmZpJtynnZkBs4&amp;controls" frameborder="0" allow="accelerometer; autoplay; loop; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
             </section>
@@ -456,7 +426,7 @@ const Home = () =>{
             <div className="footer__container container grid">
                 <div className="footer__content grid">
                     <div className="footer__data">
-                        <h3 className="footer__title">Travel</h3>
+                        <h3 className="footer__title">Ease Journey</h3>
                         <p className="footer__description">Travel you choose the <br/> destination, 
                             we offer you the <br/> experience.
                         </p>
@@ -498,7 +468,7 @@ const Home = () =>{
                                 <a href="#/" className="footer__link">Team</a>
                             </li>
                             <li className="footer__item">
-                                <a href="#/" className="footer__link">Plan y Pricing</a>
+                                <a href="#/" className="footer__link">Plan & Pricing</a>
                             </li>
                            
                         </ul>
@@ -521,7 +491,7 @@ const Home = () =>{
                 </div>
 
                 <div className="footer__rights">
-                    <p className="footer__copy">&#169; 2023 Byte Busters. All rigths reserved.</p>
+                    <p className="footer__copy">&#169; 2024 Ease Journey. All rigths reserved.</p>
                     <div className="footer__terms">
                         <a href="#/" className="footer__terms-link">Terms & Agreements</a>
                         <a href="#/" className="footer__terms-link">Privacy Policy</a>

@@ -12,10 +12,6 @@ slider10: require("./assets/img/monuments/hanuman.jpg"),
 
 hotel1 : require( "./assets/img/hotels/hotel1.jpg"),
 hotel2 : require( "./assets/img/hotels/hotel2.jpg"),
-al : require( "./assets/img/adventure/al.jpg"),
-dl : require( "./assets/img/adventure/dl.jpg"),
-eod : require( "./assets/img/adventure/eod.jpg"),
-wow : require( "./assets/img/adventure/wow.jpg"),
 red_fort: require( "./assets/img/monuments/red_fort.jpg"),
 qutub_minar : require( "./assets/img/monuments/qutub_minar.jpg"),
 india_gate : require( "./assets/img/monuments/india_gate.jpg"),
@@ -29,6 +25,12 @@ ambulance : require( "./assets/img/emergency/ambulance.jpg"),
 women : require( "./assets/img/emergency/women.jpg"),
 child : require( "./assets/img/emergency/child.jpg"),
 imgp: require("./assets/img/imgp.jpg"),
+india: require("./assets/img/india.jpg"),
+
+golden: require("./assets/img/travel/golden.jpg"),
+unity: require("./assets/img/travel/unity.jpg"),
+ram: require("./assets/img/travel/ram.jpg"),
+hawa: require("./assets/img/travel/hawa.jpg"),
 }
 export default Images
 
