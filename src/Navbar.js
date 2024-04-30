@@ -1,8 +1,9 @@
 import React,{useState, useEffect} from "react"
 import './Css/navbar.css'
+import Images from './images'
 import { Link } from 'react-router-dom'
 import { FiMenu, FiX, FiSun, FiMoon, FiHome, FiArrowDown, FiUsers } from "react-icons/fi"
-import {Booking, Dropdown, Transports} from "./Dropdown"
+import {Booking} from "./Dropdown"
 
 const Navbar =()=>{
 
@@ -89,8 +90,7 @@ const Navbar =()=>{
     return(
         <nav className='NavbarItems'>
             <h1 className='logo'>
-              
-            Ease Journey<i className='fab fa-react'></i>
+            Ease Journey<img src={Images.India} alt='' /><i className='fab fa-react'></i>
                 </h1>
                
             <div className='menuicons' onClick={handleClick}><i>{Show ? <FiX size={20}/>: <FiMenu size={20}/>}</i></div>
@@ -121,7 +121,7 @@ const Navbar =()=>{
                     GI Products
             </Link>
                 </li>
-          <li
+          {/* <li
             className='nav-item'
             onMouseEnter={onMouseEnter1}
             onMouseLeave={onMouseLeave1}
@@ -134,7 +134,7 @@ const Navbar =()=>{
               Transport <i className='fas fa-caret-down' ><FiArrowDown size={15}/></i>
             </Link>
             {trasnport && <Transports />}
-          </li>
+          </li> */}
           <li
             className='nav-item'
             onMouseEnter={onMouseEnter2}

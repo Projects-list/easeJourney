@@ -29,6 +29,7 @@ ambulance : require( "./assets/img/emergency/ambulance.jpg"),
 women : require( "./assets/img/emergency/women.jpg"),
 child : require( "./assets/img/emergency/child.jpg"),
 imgp: require("./assets/img/imgp.jpg"),
+india: require("./assets/img/india.jpg"),
 }
 export default Images
 

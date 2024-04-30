@@ -205,6 +205,11 @@ input {
   justify-content: space-between;
   align-items: center;
 }
+.logo img{
+  height: 25px;
+  width: 40px;
+  position: absolute;
+}
 
 .nav__logo, .nav__toggle {
   color: var(--white-color);
@@ -316,7 +321,7 @@ input {
 .home__data-title, 
 .home__social-link, 
 .home__info {
-  color: var(--white-color);
+  color: var(--green-color);
 }
 
 .home__data-subtitle {
@@ -356,6 +361,7 @@ input {
 
 .home__info-title {
   display: block;
+  color: var(--white-color);
   font-size: var(--small-font-size);
   font-weight: var(--font-semi-bold);
   margin-bottom: var(--mb-0-75);
