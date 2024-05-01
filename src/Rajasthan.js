@@ -384,6 +384,8 @@ return (
         <section className="place section" id="place">
             <h1 className="section__title">Explore Geographical Index Products</h1>
             <div class="card-globle-div">
+
+                <div className='in-p-h'>
                 <div class="card" className='card-gi'>
                     <img class="card-img-top" src="https://www.giheritage.com/uploads/product/molela-clay-work-jaman1-h.jpg" alt="Card image cap" />
                     <div class="card-body">
@@ -395,8 +397,9 @@ return (
                             <a href="#" className="btn-gi" class="btn btn-primary">Buy now</a>
                         </div>
                     </div>
+                    </div>
                 </div>
-
+                <div className='in-p-h'>
                 <div class="card" className='card-gi'>
                     <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Blue_pottery_pilgrim_flask.jpg/220px-Blue_pottery_pilgrim_flask.jpg" alt="Card image cap" />
                     <div class="card-body">
@@ -409,6 +412,8 @@ return (
                         </div>
                     </div>
                 </div>
+                </div>
+                <div className='in-p-h'>
                 <div class="card" className='card-gi'>
                     <img class="card-img-top" src="https://www.sundarisilks.com/cdn/shop/articles/gems-of-jaipur-sundari-silks-blog-cover.jpg?v=1617338507" alt="Card image cap" />
                     <div class="card-body">
@@ -422,6 +427,8 @@ return (
                         </div>
                     </div>
                 </div>
+                </div>
+                <div className='in-p-h'>
                 <div class="card" className='card-gi'>
                     <img class="card-img-top" src="https://media.cnn.com/api/v1/images/stellar/prod/220906104800-03-bhujia-snack-food-india-stall.jpg?c=original" alt="Card image cap" />
                     <div class="card-body">
@@ -429,9 +436,10 @@ return (
                         <p class="card-text"> the first batch of bhujia was manufactured in the princely state of Bikaner during the reign of Maharaja Shri Dungar Singh.</p>
                         <div className='div-btn-gi'>
                             <a href="https://www.google.com/maps/dir/Bikaner+Bhujia+Bhandar,+Station+Rd,+Satta+Bazaar,+Kote+Gate,+Bikaner,+Rajasthan+334001/@28.016491,73.2403402,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x393fdd7cb1b13a6d:0xf438c9cd9f842c08!2m2!1d73.3124311!2d28.0164919?hl=en-GB&entry=ttu" className="btn-gi" class="btn btn-primary">visit store</a>
-
+                            
                             <a href="#" className="btn-gi" class="btn btn-primary">Buy now</a>
                         </div>
+                    </div>
                     </div>
                 </div>
 
