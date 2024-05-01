@@ -170,6 +170,7 @@ input {
 
 .section__title {
   font-size: var(--h2-font-size);
+  font-size: var(--h1-font-size);
   color: var(--title-color);
   text-align: center;
   text-transform: capitalize;
@@ -320,7 +321,7 @@ input {
 .home__data-title, 
 .home__social-link, 
 .home__info {
-  color: var(--green-color);
+  color: var(--white-color);
 }
 
 .home__data-subtitle {
@@ -618,6 +619,10 @@ input {
   transform: var(--img-scale);
 }
 
+.place__rating-number{
+  color: var(--white-color);
+}
+
 .place__img {
   transition: var(--img-transition);
 }
@@ -665,7 +670,6 @@ input {
 .place__subtitle {
   font-size: var(--smaller-font-size);
   margin-bottom: var(--mb-1-25);
-  -webkit-text-stroke: .5px black
 }
 
 .place__button {
@@ -675,9 +679,13 @@ input {
   padding: .75rem 1rem;
 }
 
-.place__data{
-  -webkit-text-stroke: 0.5px black
-}
+/* .place__data {
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.5); 
+  padding: 5px; 
+  border-radius: 10px;
+  margin-bottom: 0;
+} */
 
 /*=============== SUBSCRIBE ===============*/
 .subscribe__bg {
@@ -1083,5 +1091,74 @@ a{
   color: #FFF;
 }
 
+/* CSS */
+.button-24 {
+  background: green;
+  border: 1px solid green;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 20px 24px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  display:flex;
+  position:relative;
+  
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: grey;
+}
+
+.button-24:active {
+  opacity: .5;
+}
+
+.place__header{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  justify-content:space-evenly;
+}
 
 
+.about-rajasthan p{
+  text-align: justify;
+  border: 10px #FFFFFF;
+  border-radius: 10px;
+  margin: 20px;
+  font-size: 15pt;
+}
+
+.about-rajasthan{
+  background-color: aliceblue;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  border-radius: 30px;
+  margin-bottom: 0;
+}
+
+.section_rajasthan{
+  text-decoration:solid;
+  justify-content: center;
+  text-align: center;
+  font-size: 50pt;
+}
