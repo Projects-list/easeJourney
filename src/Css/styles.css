@@ -1139,7 +1139,7 @@ a{
 }
 
 
-.about-rajasthan p{
+.about-rajasthan h2{
   text-align: justify;
   border: 10px #FFFFFF;
   border-radius: 10px;
@@ -1148,7 +1148,7 @@ a{
 }
 
 .about-rajasthan{
-  background-color: aliceblue;
+  
   margin-left: 50px;
   margin-right: 50px;
   padding: 10px;
@@ -1161,4 +1161,32 @@ a{
   justify-content: center;
   text-align: center;
   font-size: 50pt;
+}
+
+
+.card-globle-div {
+  display: flex;
+  position: relative;
+  margin-left: 80px;
+  margin-right: 20px;
+  
+}
+
+.card-gi {
+  margin: 20px;
+  width: 220px; /* Set a fixed width for the cards */
+  height: 400px; /* Set a fixed height for the cards */
+  
+}
+
+.card-gi img {
+  height: 200px; /* Set a fixed height for the card images */
+  object-fit: cover; /* Ensure the image fills the container while maintaining aspect ratio */
+
+}
+
+.div-btn-gi {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
 }
