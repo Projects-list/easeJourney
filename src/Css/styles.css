@@ -1176,7 +1176,9 @@ a{
   margin: 20px;
   width: 220px; /* Set a fixed width for the cards */
   height: 400px; /* Set a fixed height for the cards */
-  
+  border: 1px solid green;
+  padding: 10px;
+  border-radius: 20px;
 }
 
 .card-gi img {

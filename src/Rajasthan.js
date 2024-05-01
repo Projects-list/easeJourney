@@ -388,7 +388,7 @@ return (
                     <img class="card-img-top" src="https://www.giheritage.com/uploads/product/molela-clay-work-jaman1-h.jpg" alt="Card image cap" />
                     <div class="card-body">
                         <h5 class="card-title"><b>Molela Clay Work</b></h5>
-                        <p class="card-text"> regional art of Rajasthan that involves making clay tiles with sculptures of gods and goddesses in hollow relief form</p>
+                        <p class="card-text"> It involves making clay tiles with sculptures of gods and goddesses in hollow relief form</p>
                         <div className='div-btn-gi'>
                             <a href="https://www.google.com/maps/dir/Hanumanpura+Rd,+Molela,+Rajasthan+313322/@24.9398136,73.6478297,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x39680fc9166e6d8b:0x3e04972c2a1df926!2m2!1d73.7302312!2d24.9398363?hl=en-GB&entry=ttu" className="btn-gi" class="btn btn-primary">visit store</a>
 
@@ -400,7 +400,7 @@ return (
                 <div class="card" className='card-gi'>
                     <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Blue_pottery_pilgrim_flask.jpg/220px-Blue_pottery_pilgrim_flask.jpg" alt="Card image cap" />
                     <div class="card-body">
-                        <h5 class="card-title"><b>Blue Pottery of Jaipur</b></h5>
+                        <h5 class="card-title"><b>Blue Pottery </b></h5>
                         <p class="card-text">A well-recognised traditional art of Jaipur, the name blue pottery comes from the generous use of cobalt blue dye.</p>
                         <div className='div-btn-gi'>
                             <a href="https://www.google.com/maps/dir/Amer+Rd,+near+Jain+Mandir,+Govind+Nagar+East,+Shankar+Nagar,+Jaipur,+Rajasthan+302002/@26.9426511,75.7570107,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x396db11a89fbb4b7:0x5de4843157e0e95d!2m2!1d75.8394122!2d26.942675?hl=en-GB&entry=ttu" className="btn-gi" class="btn btn-primary">visit store</a>
@@ -426,7 +426,7 @@ return (
                     <img class="card-img-top" src="https://media.cnn.com/api/v1/images/stellar/prod/220906104800-03-bhujia-snack-food-india-stall.jpg?c=original" alt="Card image cap" />
                     <div class="card-body">
                         <h5 class="card-title"><b>Bikaneri Bhujia</b></h5>
-                        <p class="card-text">It was in the year 1877, when the first batch of bhujia was manufactured in the princely state of Bikaner during the reign of Maharaja Shri Dungar Singh.</p>
+                        <p class="card-text"> the first batch of bhujia was manufactured in the princely state of Bikaner during the reign of Maharaja Shri Dungar Singh.</p>
                         <div className='div-btn-gi'>
                             <a href="https://www.google.com/maps/dir/Bikaner+Bhujia+Bhandar,+Station+Rd,+Satta+Bazaar,+Kote+Gate,+Bikaner,+Rajasthan+334001/@28.016491,73.2403402,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x393fdd7cb1b13a6d:0xf438c9cd9f842c08!2m2!1d73.3124311!2d28.0164919?hl=en-GB&entry=ttu" className="btn-gi" class="btn btn-primary">visit store</a>
 
