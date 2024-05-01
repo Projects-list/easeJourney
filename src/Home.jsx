@@ -30,6 +30,10 @@ const Home = () =>{
                 
               
                 <div>
+                    <img src={Images.india_gate} alt='' />
+                   
+                </div>
+                <div>
                     <img src={Images.slider2} alt='' />
                    
                 </div>
@@ -51,10 +55,6 @@ const Home = () =>{
                 </div>
                 <div>
                     <img src={Images.lotus_temple} alt='' />
-                   
-                </div>
-                <div>
-                    <img src={Images.india_gate} alt='' />
                    
                 </div>
                 <div>
