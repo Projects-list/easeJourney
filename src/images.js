@@ -10,6 +10,20 @@ slider8: require("./assets/img/monuments/lodi.jpg"),
 slider9: require("./assets/img/monuments/jama-masjid-delhi.jpg"),
 slider10: require("./assets/img/monuments/hanuman.jpg"),
 
+
+
+slider11: require("./assets/img/monuments/Amer-Fort.jpg"),
+slider12: require("./assets/img/monuments/city-palace-jaipur-tourmyindia.jpg"),
+slider13: require("./assets/img/monuments/Chittorgarh2.jpg"),
+slider14: require("./assets/img/monuments/Ranthambore-Fort-A-Marvel-Of-The-Chauhan-Dynasty.jpg"),
+slider15: require("./assets/img/monuments/Hawa-Mahal-scaled.jpg"),
+slider16: require("./assets/img/monuments/Mehrangarh.jpg"),
+slider17: require("./assets/img/monuments/Jaisalmer.jpg"),
+slider18: require("./assets/img/monuments/Kumbhalgarh-Fort-Entry-Fees-History-Architecture-Timings.jpg"),
+slider19: require("./assets/img/monuments/Junagarh-Fort-Bikaner-Major-Attractions-and-Other-Details.jpg"),
+slider120: require("./assets/img/monuments/Dilwara-Jain-Temple-Mount-Abu-Timings-Location-scaled.jpg"),
+
+
 hotel1 : require( "./assets/img/hotels/hotel1.jpg"),
 hotel2 : require( "./assets/img/hotels/hotel2.jpg"),
 red_fort: require( "./assets/img/monuments/red_fort.jpg"),
@@ -25,6 +39,7 @@ ambulance : require( "./assets/img/emergency/ambulance.jpg"),
 women : require( "./assets/img/emergency/women.jpg"),
 child : require( "./assets/img/emergency/child.jpg"),
 imgp: require("./assets/img/imgp.jpg"),
+imgrajs: require("./assets/img/monuments/rajasthan_top_20_historical_sites.jpg"),
 india: require("./assets/img/india.jpg"),
 
 golden: require("./assets/img/travel/golden.jpg"),

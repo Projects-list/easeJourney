@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import indiaMap from './assets/svg/in.svg';
 import Navbar from './Navbar';
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 const statesData = [
-  { name: 'Rajasthan', wikiLink: 'https://en.wikipedia.org/wiki/Rajasthan', cx: 256.7, cy: 320.8, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg/375px-East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg' },
+  { name: 'Rajasthan', wikiLink: './Rajasthan', cx: 256.7, cy: 320.8, image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg/375px-East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg' },
   { name: 'Punjab', wikiLink: 'https://en.wikipedia.org/wiki/Punjab,_India', cx: 300.5, cy: 210.4, image: 'https://lh3.googleusercontent.com/p/AF1QipMU8xPHOakcdPjjT4bNIiIxuTiv6pQ7DRWxIGfn=s1360-w1360-h1020' },
-  { name: 'Uttar Pradesh', wikiLink: 'https://en.wikipedia.org/wiki/Uttar_Pradesh', cx: 370.7, cy: 395.5, image: 'https://volzero.com/img/news/88041_banner.jpg' },
+  { name: 'Uttar Pradesh', wikiLink: 'https://en.wikipedia.org/wiki/Uttar_Pradesh', cx: 448.7, cy: 301.8, image: 'https://volzero.com/img/news/88041_banner.jpg' },
   { name: 'Gujarat', wikiLink: 'https://en.wikipedia.org/wiki/Gujarat', cx: 199.2, cy: 400, image: 'https://media.licdn.com/dms/image/D4E12AQGftCogfufPrg/article-cover_image-shrink_600_2000/0/1698734811266?e=2147483647&v=beta&t=4Wxbqq7SYlORHkbR-Mu8C_ERnX4irYHPwamHZKo-dbI' },
 ];
 
