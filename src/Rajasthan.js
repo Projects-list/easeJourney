@@ -71,7 +71,7 @@ const Rajasthan = () => {
                         <div className="home__data">
                             <span className="home__data-subtitle">Discover your place</span>
                             <h1 className="home__data-title">Explore The <br /> Best <b>Beautiful <br /> Places</b></h1>
-                            <a href="/rajasthan" className="button">Explore</a>
+                            <a href="http://localhost:3002" className="button">Explore</a>
 
                         </div>
 
