@@ -152,7 +152,7 @@ const Navbar =()=>{
             {booking && <Booking />}
           </li>
           <li>
-                    <Link to='http://localhost:8000' target='blank' rel="noreferrer" className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='http://localhost:3000' target='blank' rel="noreferrer" className='nav-links' onClick={closeMobileMenu}>
                     <i className='fas fa-caret-down' ><MdOutlineShoppingCart size={20}/></i>
                     GI Products
             </Link>
