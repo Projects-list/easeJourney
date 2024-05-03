@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { FiSun, FiFacebook, FiInstagram, FiYoutube, FiTwitter, FiArrowRightCircle, FiPhoneCall } from "react-icons/fi"
 import "./Css/styles.css"
 import Images from './images'
@@ -11,8 +11,16 @@ import "./Css/swiper.css"
 // Import Swiper styles
 import 'swiper/css'
 import Navbar from './Navbar'
-const Rajasthan = () => {
 
+const Rajasthan = () => {
+    const [showMapPopup, setShowMapPopup] = useState(false);
+    const [mapLink, setMapLink] = useState('');
+  
+    const handleVisitStore = (link) => {
+      setShowMapPopup(true);
+      setMapLink(link);
+    };
+  
 return (
 <>
     {/* <!-- ----------------------------  Navigation ---------------------------------------------- --> */}
@@ -380,72 +388,145 @@ return (
             <a href="https://tourist.rajasthan.gov.in/#/" className="button-24" target='blank' role="button">Book
                 Tickets</a>
         </div>
-
         <section className="place section" id="place">
-            <h1 className="section__title">Explore Geographical Index Products</h1>
-            <div class="card-globle-div">
-
-                <div className='in-p-h'>
-                <div class="card" className='card-gi'>
-                    <img class="card-img-top" src="https://www.giheritage.com/uploads/product/molela-clay-work-jaman1-h.jpg" alt="Card image cap" />
-                    <div class="card-body">
-                        <h5 class="card-title"><b>Molela Clay Work</b></h5>
-                        <p class="card-text"> It involves making clay tiles with sculptures of gods and goddesses in hollow relief form</p>
-                        <div className='div-btn-gi'>
-                            <a href="https://www.google.com/maps/dir/Hanumanpura+Rd,+Molela,+Rajasthan+313322/@24.9398136,73.6478297,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x39680fc9166e6d8b:0x3e04972c2a1df926!2m2!1d73.7302312!2d24.9398363?hl=en-GB&entry=ttu" className="btn-gi" class="btn btn-primary">visit store</a>
-
-                            <a href="#" className="btn-gi" class="btn btn-primary">Buy now</a>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div className='in-p-h'>
-                <div class="card" className='card-gi'>
-                    <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Blue_pottery_pilgrim_flask.jpg/220px-Blue_pottery_pilgrim_flask.jpg" alt="Card image cap" />
-                    <div class="card-body">
-                        <h5 class="card-title"><b>Blue Pottery </b></h5>
-                        <p class="card-text">A well-recognised traditional art of Jaipur, the name blue pottery comes from the generous use of cobalt blue dye.</p>
-                        <div className='div-btn-gi'>
-                            <a href="https://www.google.com/maps/dir/Amer+Rd,+near+Jain+Mandir,+Govind+Nagar+East,+Shankar+Nagar,+Jaipur,+Rajasthan+302002/@26.9426511,75.7570107,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x396db11a89fbb4b7:0x5de4843157e0e95d!2m2!1d75.8394122!2d26.942675?hl=en-GB&entry=ttu" className="btn-gi" class="btn btn-primary">visit store</a>
-
-                            <a href="#" className="btn-gi" class="btn btn-primary">Buy now</a>
-                        </div>
-                    </div>
-                </div>
-                </div>
-                <div className='in-p-h'>
-                <div class="card" className='card-gi'>
-                    <img class="card-img-top" src="https://www.sundarisilks.com/cdn/shop/articles/gems-of-jaipur-sundari-silks-blog-cover.jpg?v=1617338507" alt="Card image cap" />
-                    <div class="card-body">
-                        <h5 class="card-title"><b>Sanganeri Hand Block Printing</b></h5>
-                        
-                        <p class="card-text">the patterns in bright colours are always printed on white backgrounds.</p>
-                        <div className='div-btn-gi'>
-                            <a href="https://www.google.com/maps/dir/Pingoriya+Farm+House,+Shikarpura+Rd,+Sanganer,+Jaipur,+Rajasthan+302029/@26.8050937,75.712203,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x396dcbefacd51365:0xe60dd964f47eea89!2m2!1d75.7946045!2d26.8051175?hl=en-GB&entry=ttu" className="btn-gi" class="btn btn-primary">visit store</a>
-
-                            <a href="#" className="btn-gi" class="btn btn-primary">Buy now</a>
-                        </div>
-                    </div>
-                </div>
-                </div>
-                <div className='in-p-h'>
-                <div class="card" className='card-gi'>
-                    <img class="card-img-top" src="https://media.cnn.com/api/v1/images/stellar/prod/220906104800-03-bhujia-snack-food-india-stall.jpg?c=original" alt="Card image cap" />
-                    <div class="card-body">
-                        <h5 class="card-title"><b>Bikaneri Bhujia</b></h5>
-                        <p class="card-text"> the first batch of bhujia was manufactured in the princely state of Bikaner during the reign of Maharaja Shri Dungar Singh.</p>
-                        <div className='div-btn-gi'>
-                            <a href="https://www.google.com/maps/dir/Bikaner+Bhujia+Bhandar,+Station+Rd,+Satta+Bazaar,+Kote+Gate,+Bikaner,+Rajasthan+334001/@28.016491,73.2403402,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x393fdd7cb1b13a6d:0xf438c9cd9f842c08!2m2!1d73.3124311!2d28.0164919?hl=en-GB&entry=ttu" className="btn-gi" class="btn btn-primary">visit store</a>
-                            
-                            <a href="#" className="btn-gi" class="btn btn-primary">Buy now</a>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-
+      <h1 className="section__title">Explore Geographical Index Products</h1>
+      <div className="card-globle-div">
+        <div className="in-p-h">
+          <div className="card" className="card-gi">
+            <img
+              className="card-img-top"
+              src="https://www.giheritage.com/uploads/product/molela-clay-work-jaman1-h.jpg"
+              alt="Card image cap"
+            />
+            <div className="card-body">
+              <h5 className="card-title">
+                <b>Molela Clay Work</b>
+              </h5>
+              <p className="card-text">
+                It involves making clay tiles with sculptures of gods and goddesses in hollow relief form
+              </p>
+              <div className="div-btn-gi">
+                <button
+                  className="btn-gi btn btn-primary"
+                  onClick={() =>
+                    handleVisitStore(
+                      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.7718535911067!2d73.72746937537342!3d24.939840927877523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39680fc9166e6d8b%3A0x3e04972c2a1df926!2sMOLELA%20TERRACOTTA!5e0!3m2!1sen!2sin!4v1714765836453!5m2!1sen!2sin'
+                    )
+                  }
+                >
+                  Visit store
+                </button>
+                <button className="btn-gi btn btn-primary">Buy now</button>
+              </div>
             </div>
+          </div>
+        </div>
+        
+        {/* Second Store */}
+        <div className="in-p-h">
+          <div className="card" className="card-gi">
+            <img
+              className="card-img-top"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Blue_pottery_pilgrim_flask.jpg/220px-Blue_pottery_pilgrim_flask.jpg"
+              alt="Card image cap"
+            />
+            <div className="card-body">
+              <h5 className="card-title">
+                <b>Blue Pottery</b>
+              </h5>
+              <p className="card-text">
+                A well-recognised traditional art of Jaipur, the name blue pottery comes from the generous use of cobalt blue dye.
+              </p>
+              <div className="div-btn-gi">
+                <button
+                  className="btn-gi btn btn-primary"
+                  onClick={() =>
+                    handleVisitStore(
+                      'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d113816.49253218056!2d75.7570107!3d26.9426511!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db11a89fbb4b7%3A0x5de4843157e0e95d!2sJaipur%20Blue%20Pottery%20Art%20Centre!5e0!3m2!1sen!2sin!4v1714766220718!5m2!1sen!2sin'
+                    )
+                  }
+                >
+                  Visit store
+                </button>
+                <button className="btn-gi btn btn-primary">Buy now</button>
+              </div>
+            </div>
+          </div>
+        </div>
 
-        </section>
+        {/* Third Store */}
+        <div className="in-p-h">
+          <div className="card" className="card-gi">
+            <img
+              className="card-img-top"
+              src="https://www.sundarisilks.com/cdn/shop/articles/gems-of-jaipur-sundari-silks-blog-cover.jpg?v=1617338507"
+              alt="Card image cap"
+            />
+            <div className="card-body">
+              <h5 className="card-title">
+                <b>Sanganeri Hand Block Printing</b>
+              </h5>
+              <p className="card-text">
+                The patterns in bright colours are always printed on white backgrounds.
+              </p>
+              <div className="div-btn-gi">
+                <button
+                  className="btn-gi btn btn-primary"
+                  onClick={() =>
+                    handleVisitStore(
+                      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.090411535201!2d75.79187722543577!3d26.805249676711355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396dcbefacd51365%3A0xe60dd964f47eea89!2sPriyadarshan%20Hand%20Print!5e0!3m2!1sen!2sin!4v1714766241695!5m2!1sen!2sin'
+                    )
+                  }
+                >
+                  Visit store
+                </button>
+                <button className="btn-gi btn btn-primary">Buy now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Fourth Store */}
+        <div className="in-p-h">
+          <div className="card" className="card-gi">
+            <img
+              className="card-img-top"
+              src="https://media.cnn.com/api/v1/images/stellar/prod/220906104800-03-bhujia-snack-food-india-stall.jpg?c=original"
+              alt="Card image cap"
+            />
+            <div className="card-body">
+              <h5 className="card-title">
+                <b>Bikaneri Bhujia</b>
+              </h5>
+              <p className="card-text">
+                The first batch of bhujia was manufactured in the princely state of Bikaner during the reign of Maharaja Shri Dungar Singh.
+              </p>
+              <div className="div-btn-gi">
+                <button
+                  className="btn-gi btn btn-primary"
+                  onClick={() =>
+                    handleVisitStore(
+                      'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d56356.17942934743!2d73.2403402!3d28.016491!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393fdd7cb1b13a6d%3A0xf438c9cd9f842c08!2sBikaner%20Bhujia%20Bhandar!5e0!3m2!1sen!2sin!4v1714766261187!5m2!1sen!2sin'
+                    )
+                  }
+                >
+                  Visit store
+                </button>
+                <button className="btn-gi btn btn-primary">Buy now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      {showMapPopup && (
+        <div className="map-popup">
+          <iframe title="map" src={mapLink} width="600" height="450"></iframe>
+          <button onClick={() => setShowMapPopup(false)}>Close</button>
+        </div>
+      )}
+    </section>
     </main>
 
     <footer className="footer section">
