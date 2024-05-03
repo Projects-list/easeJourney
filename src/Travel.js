@@ -16,9 +16,10 @@ const IndiaMap = () => {
   const handleStateClick = (stateName) => {
     const state = statesData.find(state => state.name === stateName);
     if (state) {
-      window.open(state.wikiLink, '_blank');
+      window.location.href = state.wikiLink;
     }
   };
+  
 
   return (
     <div>

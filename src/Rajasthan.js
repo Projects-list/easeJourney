@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import { FiSun, FiFacebook, FiInstagram, FiYoutube, FiTwitter, FiArrowRightCircle, FiPhoneCall } from "react-icons/fi"
+import { RiCloseFill } from "react-icons/ri";
 import "./Css/styles.css"
 import Images from './images'
 // import video from "./assets/video/video.mp4"
@@ -522,9 +523,12 @@ return (
 
       {showMapPopup && (
         <div className="map-popup">
-          <iframe title="map" src={mapLink} width="600" height="450"></iframe>
-          <button onClick={() => setShowMapPopup(false)}>Close</button>
-        </div>
+        <iframe title="map" src={mapLink} width="600" height="450"></iframe>
+        <button className="close-button" onClick={() => setShowMapPopup(false)}>
+          <RiCloseFill size={20} />
+        </button>
+      </div>
+      
       )}
     </section>
     </main>

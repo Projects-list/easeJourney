@@ -13,8 +13,8 @@ const Navbar =()=>{
     const [name, setname] = useState(<FiMoon size={20} />)
     const [click, setClick] = useState(false);
     const [dropdown, setDropdown] = useState(false);
-    const [trasnport, settransport] = useState(false);
-    const [booking, setbooking] = useState(false);
+    const [transport, settransport] = useState(false);
+    const [booking, setBooking] = useState(false);
   
     const handleClicks = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
@@ -57,22 +57,22 @@ const Navbar =()=>{
          
         }
       };
-     const onMouseEnter2 = () => {
+     const onMouseEnterBooking = () => {
         if (window.innerWidth < 960) {
-          setbooking(false);
+          setBooking(false);
          
         } else {
-          setbooking(true);
+          setBooking(true);
          
         }
       };
     
-      const onMouseLeave2 = () => {
+      const onMouseLeaveBooking = () => {
         if (window.innerWidth < 960) {
-          setbooking(false);
+          setBooking(false);
          
         } else {
-          setbooking(false);
+          setBooking(false);
          
         }
       };
@@ -117,7 +117,7 @@ const Navbar =()=>{
             {dropdown && <Dropdown />}
           </li> */}
           <li>
-                    <Link to='/travel' target='blank' rel="noreferrer" className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='/travel' rel="noreferrer" className='nav-links' onClick={closeMobileMenu}>
                     <i className='fas fa-caret-down' ><FiUsers size={20}/></i>
                     Travel Companion
             </Link>
@@ -139,8 +139,8 @@ const Navbar =()=>{
           </li> */}
           <li
             className='nav-item'
-            onMouseEnter={onMouseEnter2}
-            onMouseLeave={onMouseLeave2}
+            onMouseEnter={onMouseEnterBooking}
+            onMouseLeave={onMouseLeaveBooking}
           >
             <Link
               to='/'
