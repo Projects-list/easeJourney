@@ -417,7 +417,12 @@ return (
                 >
                   Visit store
                 </button>
-                <button className="btn-gi btn btn-primary">Buy now</button>
+                <button className="btn-gi btn btn-primary"
+                onClick={() =>
+                    handleVisitStore(
+                      'http://localhost:3000/product/6635cc15d00f570ddc95905b'
+                    )
+                  }>Buy now</button>
               </div>
             </div>
           </div>
@@ -449,7 +454,12 @@ return (
                 >
                   Visit store
                 </button>
-                <button className="btn-gi btn btn-primary">Buy now</button>
+                <button className="btn-gi btn btn-primary"
+                 onClick={() =>
+                    handleVisitStore(
+                      'http://localhost:3000/product/6635cc3fd00f570ddc95905e'
+                    )
+                  }>Buy now</button>
               </div>
             </div>
           </div>
@@ -481,7 +491,12 @@ return (
                 >
                   Visit store
                 </button>
-                <button className="btn-gi btn btn-primary">Buy now</button>
+                <button className="btn-gi btn btn-primary"
+                 onClick={() =>
+                    handleVisitStore(
+                      'http://localhost:3000/product/6635cc6fd00f570ddc959062'
+                    )
+                  }>Buy now</button>
               </div>
             </div>
           </div>
@@ -513,7 +528,12 @@ return (
                 >
                   Visit store
                 </button>
-                <button className="btn-gi btn btn-primary">Buy now</button>
+                <button className="btn-gi btn btn-primary"
+                 onClick={() =>
+                    handleVisitStore(
+                      'http://localhost:3000/product/6635cca0d00f570ddc959066'
+                    )
+                  }>Buy now</button>
               </div>
             </div>
           </div>
