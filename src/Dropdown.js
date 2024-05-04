@@ -31,25 +31,7 @@ const Dropdown=()=> {
         })}
       </ul>
     </>
-  )
-}
-
-const Transports=()=> {
-    const [click, setClick] = useState(false);
-  
-    const handleClick = () => setClick(!click);
-  
-    return (
-      <>
-        <ul
-          onClick={handleClick}
-          className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
-        >
-        
-        </ul>
-      </>
-    )
-  }
+  )}
   
   const Booking=()=> {
     const [click, setClick] = useState(false);
