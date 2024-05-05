@@ -393,7 +393,7 @@ return (
       <h1 className="section__title">Explore Geographical Index Products</h1>
       <div className="card-globle-div">
         <div className="in-p-h">
-          <div className="card" className="card-gi">
+          <div className="card-gi">
             <img
               className="card-img-top"
               src="https://www.giheritage.com/uploads/product/molela-clay-work-jaman1-h.jpg"
@@ -430,7 +430,7 @@ return (
         
         {/* Second Store */}
         <div className="in-p-h">
-          <div className="card" className="card-gi">
+          <div className="card-gi">
             <img
               className="card-img-top"
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Blue_pottery_pilgrim_flask.jpg/220px-Blue_pottery_pilgrim_flask.jpg"
@@ -467,7 +467,7 @@ return (
 
         {/* Third Store */}
         <div className="in-p-h">
-          <div className="card" className="card-gi">
+          <div className="card-gi">
             <img
               className="card-img-top"
               src="https://www.sundarisilks.com/cdn/shop/articles/gems-of-jaipur-sundari-silks-blog-cover.jpg?v=1617338507"
@@ -504,7 +504,7 @@ return (
 
         {/* Fourth Store */}
         <div className="in-p-h">
-          <div className="card" className="card-gi">
+          <div className="card-gi">
             <img
               className="card-img-top"
               src="https://media.cnn.com/api/v1/images/stellar/prod/220906104800-03-bhujia-snack-food-india-stall.jpg?c=original"
@@ -547,9 +547,15 @@ return (
         <button className="close-button" onClick={() => setShowMapPopup(false)}>
           <RiCloseFill size={20} />
         </button>
+        <div className="disclaimer" >
+  <p >⚠️ Disclaimer: External link. We're not responsible for its content or security.</p>
+</div>
+
       </div>
       
       )}
+  
+
     </section>
     </main>
 
