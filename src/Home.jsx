@@ -2,10 +2,9 @@ import React from 'react'
 import { FiSun, FiFacebook, FiInstagram, FiYoutube, FiTwitter, FiArrowRightCircle, FiPhoneCall } from "react-icons/fi"
 import "./Css/styles.css"
 import Images from './images'
-// import video from "./assets/video/video.mp4"
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { Carousel } from 'react-responsive-carousel'
-// import "./Css/swiper.css"
+import "./Css/swiper.css"
 // import { Swiper, SwiperSlide } from 'swiper/react'
 
 // Import Swiper styles

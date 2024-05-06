@@ -12,7 +12,22 @@ export const MenuData =[
     },
 
 ]
+export const TransportAll =[
+    {
+        title: "Bus",
+        url: "https://www.google.com/maps/dir/28.5987878,77.320955//@28.5987816,77.2797553,13z/data=!3m1!4b1!4m5!4m4!1m1!4e1!1m0!3e3",
+        cName: "nav-links",
+        icon: <FiHome size={20}/>
+    },
+    {
+        title: "Train",
+        url: "/trainsearch",
+        cName: "nav-links",
+        icon: <FiEdit3 size={20}/>
+    }
+    
 
+]
 export const BookingAll =[
     {
         title: "Hotel",
