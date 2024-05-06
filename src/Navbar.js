@@ -1,10 +1,9 @@
 import React,{useState, useEffect} from "react"
 import './Css/navbar.css'
-import Images from './images'
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { Link } from 'react-router-dom'
 import { FiMenu, FiX, FiSun, FiMoon, FiHome, FiArrowDown, FiUsers } from "react-icons/fi"
-import {Booking} from "./Dropdown"
+import {Booking, Transports} from "./Dropdown"
 
 const Navbar =()=>{
 
@@ -12,32 +11,13 @@ const Navbar =()=>{
     const [theme, settheme] = useState("light-theme")
     const [name, setname] = useState(<FiMoon size={20} />)
     const [click, setClick] = useState(false);
-    const [dropdown, setDropdown] = useState(false);
-    const [transport, settransport] = useState(false);
     const [booking, setBooking] = useState(false);
+    const [trasnport, settransport] = useState(false);
   
     const handleClicks = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
   
-    const onMouseEnter = () => {
-      if (window.innerWidth < 960) {
-        setDropdown(false);
-       
-      } else {
-        setDropdown(true);
-       
-      }
-    };
-  
-    const onMouseLeave = () => {
-      if (window.innerWidth < 960) {
-        setDropdown(false);
-       
-      } else {
-        setDropdown(false);
-       
-      }
-    };
+    
      const onMouseEnter1 = () => {
         if (window.innerWidth < 960) {
           settransport(false);
