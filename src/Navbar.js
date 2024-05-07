@@ -8,8 +8,8 @@ import {Booking, Transports} from "./Dropdown"
 const Navbar =()=>{
 
     const [Show, setShow] = useState(false)
-    const [theme, settheme] = useState("light-theme")
-    const [name, setname] = useState(<FiMoon size={20} />)
+    const [theme, settheme] = useState("dark-theme")
+    const [name, setname] = useState(<FiSun size={20} />)
     const [click, setClick] = useState(false);
     const [booking, setBooking] = useState(false);
     const [trasnport, settransport] = useState(false);
@@ -57,8 +57,8 @@ const Navbar =()=>{
         }
       };
     const toggledark = () => {
-        theme === "dark-theme" ? settheme("light-theme") : settheme("dark-theme")
-        theme === "dark-theme" ? setname(<FiMoon size={20} />) : setname(<FiSun size={20} />)
+        theme === "light-theme" ? settheme("dark-theme") : settheme("light-theme")
+        theme === "light-theme" ? setname(<FiSun size={20} />) : setname(< FiMoon size={20}/>)
 
     }
     useEffect (() => {

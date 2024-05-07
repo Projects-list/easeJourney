@@ -429,9 +429,7 @@ const Home = () =>{
         <Footer/>
         </footer>
 
-        <a href="#/" className="scrollup" id="scroll-up">
-            <i className="ri-arrow-up-line scrollup__icon"><FiSun size={50}/></i>
-        </a>
+     
         </>
     )
 }
