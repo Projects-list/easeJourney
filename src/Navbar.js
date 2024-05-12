@@ -123,7 +123,7 @@ const Navbar =()=>{
             onMouseLeave={onMouseLeaveBooking}
           >
             <Link
-              to='/'
+              to='#'
               className='nav-links'
               onClick={closeMobileMenu}
             >
