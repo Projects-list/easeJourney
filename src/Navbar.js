@@ -3,7 +3,8 @@ import './Css/navbar.css'
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { Link } from 'react-router-dom'
 import { FiMenu, FiX, FiSun, FiMoon, FiHome, FiArrowDown, FiUsers } from "react-icons/fi"
-import {Booking, Transports} from "./Dropdown"
+import {Booking} from "./Dropdown"
+import { BookingAll } from "./MenuData";
 
 const Navbar =()=>{
 
@@ -11,7 +12,7 @@ const Navbar =()=>{
     const [theme, settheme] = useState("light-theme")
     const [name, setname] = useState(<FiMoon size={20} />)
     const [click, setClick] = useState(false);
-    const [booking, setBooking] = useState(false);
+    const [book, setBooking] = useState(false);
     const [trasnport, settransport] = useState(false);
   
     const handleClicks = () => setClick(!click);
@@ -129,7 +130,7 @@ const Navbar =()=>{
             >
               Booking <i className='fas fa-caret-down' ><FiArrowDown size={15}/></i>
             </Link>
-            {booking && <Booking />}
+            {book && <Booking  /> }
           </li>
           <li>
                     <Link to='http://localhost:3000' target='blank' rel="noreferrer" className='nav-links' onClick={closeMobileMenu}>
