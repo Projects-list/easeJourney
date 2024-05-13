@@ -7,13 +7,11 @@ import { Link } from 'react-router-dom'
   const Booking=()=> {
     const [click, setClick] = useState(false);
   
-    const handleClick = () => setClick(!click);
-  
     return (
       <>
         <ul
-          onClick={handleClick}
-          className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
+          onClick={()=> setClick(!click)}
+          className={!click ? 'clicked' : 'dropdown-menu'}
         >
           {BookingAll.map((item, index) => {
             return (
@@ -22,7 +20,7 @@ import { Link } from 'react-router-dom'
                   target='blank'
                   className={item.cName}
                   to={item.url}
-                  onClick={() => setClick(false)}
+                  //onClick={() => setClick(false)}
                 >
                   <i className='fa-solid'>{item.icon}</i>
                   {item.title}
@@ -36,38 +34,68 @@ import { Link } from 'react-router-dom'
   }
 
 
-  // const Transports=()=> {
-  //   const [click, setClick] = useState(false);
+
+  const Dropdown = () => {
+    const [click, setClick] = useState(false);
   
-  //   const handleClick = () => setClick(!click);
+    const handleClick = () => setClick(!click);
   
-  //   return (
-  //     <>
-  //       <ul
-  //         onClick={handleClick}
-  //         className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
-  //       >
-  //         {TransportAll.map((item, index) => {
-  //           return (
-  //             <li key={index}>
-  //               <Link
-  //                 className={item.cName}
-  //                 to={item.url}
-  //                 onClick={() => setClick(false)}
-  //               >
-  //                 <i className='fa-solid'>{item.icon}</i>
-  //                 {item.title}
-  //               </Link>
-  //             </li>
-  //           );
-  //         })}
-  //       </ul>
-  //     </>
-  //   )
-  // };
+    return (
+      <>
+        <ul
+          onClick={handleClick}
+          className={click ? 'unique-dropdown-menu clicked' : 'unique-dropdown-menu'}
+        >
+          {MenuData.map((item, index) => {
+            return (
+              <li key={index}>
+                <Link
+                  className={item.cName}
+                  to={item.path}
+                  onClick={() => setClick(false)}
+                >
+                  {item.title}
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </>
+    );
+  };
+
+  const Transports=()=> {
+    const [click, setClick] = useState(false);
+  
+    const handleClick = () => setClick(!click);
+  
+    return (
+      <>
+        <ul
+          onClick={handleClick}
+          className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
+        >
+          {TransportAll.map((item, index) => {
+            return (
+              <li key={index}>
+                <Link
+                  className={item.cName}
+                  to={item.url}
+                  onClick={() => setClick(false)}
+                >
+                  <i className='fa-solid'>{item.icon}</i>
+                  {item.title}
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </>
+    )
+  };
   
 
 export {
-    Booking
+    Booking, Transports,
 }
 

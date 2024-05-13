@@ -421,7 +421,7 @@ return (
                 <button className="btn-gi btn btn-primary"
                 onClick={() =>
                     handleVisitStore(
-                      'http://localhost:3000/product/664046a1a918d81bdc6ceb83'
+                      'http://localhost:3000/product/6635cc15d00f570ddc95905b'
                     )
                   }>Buy now</button>
               </div>
@@ -434,7 +434,7 @@ return (
           <div className="card-gi">
             <img
               className="card-img-top"
-              src={Images.slider_pt}
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Blue_pottery_pilgrim_flask.jpg/220px-Blue_pottery_pilgrim_flask.jpg"
               alt="Card image cap"
             />
             <div className="card-body">

@@ -22,7 +22,6 @@ slider17: require("./assets/img/monuments/Jaisalmer.jpg"),
 slider18: require("./assets/img/monuments/Kumbhalgarh-Fort-Entry-Fees-History-Architecture-Timings.jpg"),
 slider19: require("./assets/img/monuments/Junagarh-Fort-Bikaner-Major-Attractions-and-Other-Details.jpg"),
 slider120: require("./assets/img/monuments/Dilwara-Jain-Temple-Mount-Abu-Timings-Location-scaled.jpg"),
-slider_pt: require("./assets/img/monuments/blue-pottery.jpg"),
 
 
 hotel1 : require( "./assets/img/hotels/hotel1.jpg"),
