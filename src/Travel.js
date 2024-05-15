@@ -27,7 +27,7 @@ const IndiaMap = () => {
     <div>
       <Navbar /> {/* Render the Navbar component */}
       <div style={{ display: 'flex', justifyContent: 'left', alignItems: 'center', height: '100vh', marginLeft: '50px', marginTop: '50px'}}>
-        <h1>Select State to Know More!!</h1>
+        <h1>Select Place to Know More!!</h1>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1000 800"
