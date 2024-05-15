@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import indiaMap from './assets/svg/in.svg';
 import Navbar from './Navbar';
+import Footer from './Footer'
 // import { Link } from 'react-router-dom'
 
 const statesData = [
@@ -64,6 +65,9 @@ const IndiaMap = () => {
           ))}
         </svg>
       </div>
+      <footer className="footer" id="footer" >
+        <Footer/>
+        </footer>
     </div>
   );
 };
