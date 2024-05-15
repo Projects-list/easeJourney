@@ -70,9 +70,9 @@ const Navbar =()=>{
     }
     return(
         <nav className='NavbarItems'>
-            <h1 className='logo'>
+            <a href="/"><h1 className='logo'>
             Ease Journey  <img src='https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/383px-Flag_of_India.svg.png' alt='' /><i className='fab fa-react'></i>
-                </h1>
+                </h1></a>
                
             <div className='menuicons' onClick={handleClick}><i>{Show ? <FiX size={20}/>: <FiMenu size={20}/>}</i></div>
             <ul className={Show ? "navmenu active":"navmenu"}>

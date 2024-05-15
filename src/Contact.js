@@ -47,11 +47,7 @@ const ContactUs = () => {
       <footer className="footer" id="footer">
         <Footer />
       </footer>
-      <a href="#/" className="scrollup" id="scroll-up">
-        <i className="ri-arrow-up-line scrollup__icon">
-          <FiArrowUp size={20} />
-        </i>
-      </a>
+ 
     </>
   )
 }
