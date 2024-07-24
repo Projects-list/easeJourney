@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { FiSun, FiFacebook, FiInstagram, FiYoutube, FiTwitter, FiArrowRightCircle, FiPhoneCall, FiLinkedin } from "react-icons/fi"
+import {  FiInstagram, FiLinkedin } from "react-icons/fi"
 import { RiCloseFill } from "react-icons/ri";
 import "./Css/styles.css"
 // import video from "./assets/video/video.mp4"
@@ -14,7 +14,7 @@ import Footer from './Footer';
 
 const Team = () => {
   const [showMapPopup, setShowMapPopup] = useState(false);
-  const [mapLink, setMapLink] = useState('');
+  const [mapLink,] = useState('');
 
 
   return (
@@ -46,7 +46,7 @@ const Team = () => {
                 <img
                   className="card-img-top"
                   src="https://media.licdn.com/dms/image/D5603AQFue6WNvcwnmA/profile-displayphoto-shrink_800_800/0/1715487478162?e=1721260800&v=beta&t=2uG_kDSVapi7WZZ3S_Z46YILjmLQBpuoYjgeyr0uXtk"
-                  alt="Card image cap"
+                  alt="Team member John"
                 />
                 <div className="card-body">
                   <h5 className="card-title">
@@ -75,7 +75,7 @@ const Team = () => {
                 <img
                   className="card-img-top"
                   src="https://media.licdn.com/dms/image/D4D03AQF2vQcKSUGaSQ/profile-displayphoto-shrink_800_800/0/1668545942819?e=1720656000&v=beta&t=S3LsEt78r7_dHwFRIE6_nMraSV-AQvjplDu99XPNUR4"
-                  alt="Card image cap"
+                  alt="Team member Jane"
                 />
                 <div className="card-body">
                   <h5 className="card-title">
@@ -104,7 +104,7 @@ const Team = () => {
                 <img
                   className="card-img-top"
                   src="https://media.licdn.com/dms/image/D5603AQHqOdJ4SIBJ0g/profile-displayphoto-shrink_800_800/0/1715265598827?e=1721260800&v=beta&t=IULzSQb0ZMp3pF2-PXs0BxSbSJCMjQ9wfDsZ5YzbMOE"
-                  alt="Card image cap"
+                  alt="Team member Smith"
                 />
                 <div className="card-body">
                   <h5 className="card-title">

@@ -1,5 +1,5 @@
 import React from 'react'
-import { FiSun, FiFacebook, FiInstagram, FiYoutube, FiTwitter, FiArrowRightCircle, FiPhoneCall } from "react-icons/fi"
+import {FiFacebook, FiInstagram, FiTwitter, FiArrowRightCircle, FiPhoneCall } from "react-icons/fi"
 import "./Css/styles.css"
 import Images from './images'
 import "react-responsive-carousel/lib/styles/carousel.min.css"
@@ -142,7 +142,7 @@ const Home = () =>{
 
                             <div className="place__data">
                                 <h3 className="place__title">Red Fort</h3>
-                                <span className="place__subtitle" ><a href='https://www.google.com/maps/place/Red+Fort/@28.6186535,77.2453696,13z/data=!4m6!3m5!1s0x390cfce26ec085ef:0x441e32f4fa5002fb!8m2!3d28.6561592!4d77.2410203!16zL20vMDVteXN2'target='_blank'> Netaji Subhash Marg, Lal Qila, Chandni Chowk, New Delhi, Delhi 110006</a></span>
+                                <span className="place__subtitle" ><a href='https://www.google.com/maps/place/Red+Fort/@28.6186535,77.2453696,13z/data=!4m6!3m5!1s0x390cfce26ec085ef:0x441e32f4fa5002fb!8m2!3d28.6561592!4d77.2410203!16zL20vMDVteXN2' target='_blank' rel="noreferrer"> Netaji Subhash Marg, Lal Qila, Chandni Chowk, New Delhi, Delhi 110006</a></span>
                             </div>
                         </div>
 
@@ -163,7 +163,7 @@ const Home = () =>{
 
                             <div className="place__data">
                                 <h3 className="place__title">India Gate</h3>
-                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/India+Gate/@28.612912,77.2269348,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce2daa9eb4d0b:0x717971125923e5d!8m2!3d28.612912!4d77.2295097!16zL20vMDM1bWMz' target='_blank'>Kartavya Path, India Gate, New Delhi, Delhi 110001</a> </span>
+                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/India+Gate/@28.612912,77.2269348,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce2daa9eb4d0b:0x717971125923e5d!8m2!3d28.612912!4d77.2295097!16zL20vMDM1bWMz'  target='_blank' rel="noreferrer">Kartavya Path, India Gate, New Delhi, Delhi 110001</a> </span>
                             </div>
                         </div>
 
@@ -184,7 +184,7 @@ const Home = () =>{
 
                             <div className="place__data">
                                 <h3 className="place__title">Qutub Minar</h3>
-                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Qutab+Minar,+Seth+Sarai,+Mehrauli,+New+Delhi,+Delhi+110016/@28.5244946,77.1829428,17z/data=!3m1!4b1!4m6!3m5!1s0x390d1e065dc72379:0xf6e7259f610de1d7!8m2!3d28.5244946!4d77.1855177!16zL20vMDNjX2g4' target='_blank'>Seth Sarai, Mehrauli, New Delhi, Delhi 110030</a></span>
+                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Qutab+Minar,+Seth+Sarai,+Mehrauli,+New+Delhi,+Delhi+110016/@28.5244946,77.1829428,17z/data=!3m1!4b1!4m6!3m5!1s0x390d1e065dc72379:0xf6e7259f610de1d7!8m2!3d28.5244946!4d77.1855177!16zL20vMDNjX2g4'  target='_blank' rel="noreferrer">Seth Sarai, Mehrauli, New Delhi, Delhi 110030</a></span>
                             </div>
                         </div>
 
@@ -205,12 +205,12 @@ const Home = () =>{
 
                             <div className="place__data">
                                 <h3 className="place__title">Akshardham</h3>
-                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Akshardham/@28.6126735,77.274687,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce35b9975b1fb:0x69a09f265ef3b22a!8m2!3d28.6126735!4d77.2772619!16zL20vMDkxbmYx' target='_blank'>Noida Mor, Pandav Nagar, New Delhi, Delhi 110092</a></span>
+                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Akshardham/@28.6126735,77.274687,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce35b9975b1fb:0x69a09f265ef3b22a!8m2!3d28.6126735!4d77.2772619!16zL20vMDkxbmYx'  target='_blank' rel="noreferrer">Noida Mor, Pandav Nagar, New Delhi, Delhi 110092</a></span>
                             </div>
                         </div>
 
                         <button className="button button--flex place__button">
-                            <i className="ri-arrow-right-line"> <a href='https://en.wikipedia.org/wiki/Swaminarayan_Akshardham_(Delhi)' target='_blank'><FiArrowRightCircle size={15}/></a></i>
+                            <i className="ri-arrow-right-line"> <a href='https://en.wikipedia.org/wiki/Swaminarayan_Akshardham_(Delhi)'  target='_blank' rel="noreferrer"><FiArrowRightCircle size={15}/></a></i>
                         </button>
                     </div>
 
@@ -226,7 +226,7 @@ const Home = () =>{
 
                             <div className="place__data">
                                 <h3 className="place__title">Lotus Temple</h3>
-                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Lotus+Temple/@28.553492,77.2562515,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce3c16e028cd1:0x653beb1ee85ec67a!8m2!3d28.553492!4d77.2588264!16s%2Fm%2F03bx9s0' target='_blank'>Lotus Temple Rd, Bahapur, Shambhu Dayal Bagh, Kalkaji, New Delhi, Delhi 110019</a></span>
+                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Lotus+Temple/@28.553492,77.2562515,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce3c16e028cd1:0x653beb1ee85ec67a!8m2!3d28.553492!4d77.2588264!16s%2Fm%2F03bx9s0'  target='_blank' rel="noreferrer">Lotus Temple Rd, Bahapur, Shambhu Dayal Bagh, Kalkaji, New Delhi, Delhi 110019</a></span>
                             </div>
                         </div>
 
@@ -272,7 +272,7 @@ const Home = () =>{
                     <div className="video__content">
                         {/* <video src="https://www.youtube.com/embed/zc_iulZt-us?si=17kSqHVfx1OY0HiO" type="video/mp4" id="video-file" controls loop> */}
                         {/* </video> */}
-                        <iframe width="1000" height="600" src="https://www.youtube.com/embed/zc_iulZt-us?si=rhwmZpJtynnZkBs4&amp;controls" frameborder="0" allow="accelerometer; autoplay; loop; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe title="Example" width="1000" height="600" src="https://www.youtube.com/embed/zc_iulZt-us?si=rhwmZpJtynnZkBs4&amp;controls" frameborder="0" allow="accelerometer; autoplay; loop; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
             </section>

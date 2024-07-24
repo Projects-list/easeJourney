@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { MenuData, BookingAll, TransportAll } from "./MenuData"
+import { BookingAll, TransportAll } from "./MenuData"
 import './Css/navbar.css'
 import './Css/Dropdown.css'
 import { Link } from 'react-router-dom'
@@ -34,35 +34,6 @@ import { Link } from 'react-router-dom'
   }
 
 
-
-  const Dropdown = () => {
-    const [click, setClick] = useState(false);
-  
-    const handleClick = () => setClick(!click);
-  
-    return (
-      <>
-        <ul
-          onClick={handleClick}
-          className={click ? 'unique-dropdown-menu clicked' : 'unique-dropdown-menu'}
-        >
-          {MenuData.map((item, index) => {
-            return (
-              <li key={index}>
-                <Link
-                  className={item.cName}
-                  to={item.path}
-                  onClick={() => setClick(false)}
-                >
-                  {item.title}
-                </Link>
-              </li>
-            );
-          })}
-        </ul>
-      </>
-    );
-  };
 
   const Transports=()=> {
     const [click, setClick] = useState(false);

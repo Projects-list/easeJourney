@@ -1,5 +1,4 @@
 import React from 'react';
-import { FiSun } from "react-icons/fi";
 import "./Css/styles.css";
 import Navbar from './Navbar';
 import Footer from './Footer';

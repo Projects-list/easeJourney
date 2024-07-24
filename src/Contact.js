@@ -1,12 +1,11 @@
-import React, { useState } from 'react';
-import { FiArrowUp } from "react-icons/fi";
+
+
 import "./Css/styles.css";
 import Navbar from './Navbar';
 import Footer from './Footer';
 
 const ContactUs = () => {
-  const [showMapPopup, setShowMapPopup] = useState(false);
-  const [mapLink, setMapLink] = useState('');
+
 
   const handleSubmit = (event) => {
     event.preventDefault();

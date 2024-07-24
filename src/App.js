@@ -1,6 +1,6 @@
 
 import './App.css'
-import { BrowserRouter, Router } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 import RouteNavs from './Routes';
 function App() {
   return (

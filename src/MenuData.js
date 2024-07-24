@@ -1,5 +1,5 @@
 import React from 'react'
-import { FiHome, FiMap, FiEdit3, FiBriefcase, FiBook, FiMail } from "react-icons/fi";
+import { FiHome, FiMap, FiEdit3, } from "react-icons/fi";
 import { FaBus, FaTrain, FaTaxi } from "react-icons/fa";
 import { MdFlight } from "react-icons/md";
 

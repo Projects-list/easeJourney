@@ -1,5 +1,5 @@
 import React from 'react'
-import { FiSun, FiFacebook, FiInstagram, FiYoutube, FiTwitter, FiArrowRightCircle, FiPhoneCall } from "react-icons/fi"
+import { FiFacebook, FiInstagram, FiTwitter, FiArrowRightCircle,} from "react-icons/fi"
 import "./Css/styles.css"
 import Images from './images'
 // import video from "./assets/video/video.mp4"
@@ -122,7 +122,7 @@ const Monument = () =>{
 
                             <div className="place__data">
                                 <h3 className="place__title">Red Fort</h3>
-                                <span className="place__subtitle" ><a href='https://www.google.com/maps/place/Red+Fort/@28.6186535,77.2453696,13z/data=!4m6!3m5!1s0x390cfce26ec085ef:0x441e32f4fa5002fb!8m2!3d28.6561592!4d77.2410203!16zL20vMDVteXN2'target='_blank'> Netaji Subhash Marg, Lal Qila, Chandni Chowk, New Delhi, Delhi 110006</a></span>
+                                <span className="place__subtitle" ><a href='https://www.google.com/maps/place/Red+Fort/@28.6186535,77.2453696,13z/data=!4m6!3m5!1s0x390cfce26ec085ef:0x441e32f4fa5002fb!8m2!3d28.6561592!4d77.2410203!16zL20vMDVteXN2' target='_blank' rel="noreferrer"> Netaji Subhash Marg, Lal Qila, Chandni Chowk, New Delhi, Delhi 110006</a></span>
                             </div>
                         </div>
 
@@ -143,7 +143,7 @@ const Monument = () =>{
 
                             <div className="place__data">
                                 <h3 className="place__title">India Gate</h3>
-                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/India+Gate/@28.612912,77.2269348,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce2daa9eb4d0b:0x717971125923e5d!8m2!3d28.612912!4d77.2295097!16zL20vMDM1bWMz' target='_blank'>Kartavya Path, India Gate, New Delhi, Delhi 110001</a> </span>
+                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/India+Gate/@28.612912,77.2269348,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce2daa9eb4d0b:0x717971125923e5d!8m2!3d28.612912!4d77.2295097!16zL20vMDM1bWMz'  target='_blank' rel="noreferrer">Kartavya Path, India Gate, New Delhi, Delhi 110001</a> </span>
                             </div>
                         </div>
 
@@ -164,7 +164,7 @@ const Monument = () =>{
 
                             <div className="place__data">
                                 <h3 className="place__title">Qutub Minar</h3>
-                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Qutab+Minar,+Seth+Sarai,+Mehrauli,+New+Delhi,+Delhi+110016/@28.5244946,77.1829428,17z/data=!3m1!4b1!4m6!3m5!1s0x390d1e065dc72379:0xf6e7259f610de1d7!8m2!3d28.5244946!4d77.1855177!16zL20vMDNjX2g4' target='_blank'>Seth Sarai, Mehrauli, New Delhi, Delhi 110030</a></span>
+                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Qutab+Minar,+Seth+Sarai,+Mehrauli,+New+Delhi,+Delhi+110016/@28.5244946,77.1829428,17z/data=!3m1!4b1!4m6!3m5!1s0x390d1e065dc72379:0xf6e7259f610de1d7!8m2!3d28.5244946!4d77.1855177!16zL20vMDNjX2g4'  target='_blank' rel="noreferrer">Seth Sarai, Mehrauli, New Delhi, Delhi 110030</a></span>
                             </div>
                         </div>
 
@@ -185,12 +185,12 @@ const Monument = () =>{
 
                             <div className="place__data">
                                 <h3 className="place__title">Akshardham</h3>
-                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Akshardham/@28.6126735,77.274687,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce35b9975b1fb:0x69a09f265ef3b22a!8m2!3d28.6126735!4d77.2772619!16zL20vMDkxbmYx' target='_blank'>Noida Mor, Pandav Nagar, New Delhi, Delhi 110092</a></span>
+                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Akshardham/@28.6126735,77.274687,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce35b9975b1fb:0x69a09f265ef3b22a!8m2!3d28.6126735!4d77.2772619!16zL20vMDkxbmYx'  target='_blank' rel="noreferrer">Noida Mor, Pandav Nagar, New Delhi, Delhi 110092</a></span>
                             </div>
                         </div>
 
                         <button className="button button--flex place__button">
-                            <i className="ri-arrow-right-line"> <a href='https://en.wikipedia.org/wiki/Swaminarayan_Akshardham_(Delhi)' target='_blank'><FiArrowRightCircle size={15}/></a></i>
+                            <i className="ri-arrow-right-line"> <a href='https://en.wikipedia.org/wiki/Swaminarayan_Akshardham_(Delhi)'  target='_blank' rel="noreferrer"><FiArrowRightCircle size={15}/></a></i>
                         </button>
                     </div>
 
@@ -206,7 +206,7 @@ const Monument = () =>{
 
                             <div className="place__data">
                                 <h3 className="place__title">Lotus Temple</h3>
-                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Lotus+Temple/@28.553492,77.2562515,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce3c16e028cd1:0x653beb1ee85ec67a!8m2!3d28.553492!4d77.2588264!16s%2Fm%2F03bx9s0' target='_blank'>Lotus Temple Rd, Bahapur, Shambhu Dayal Bagh, Kalkaji, New Delhi, Delhi 110019</a></span>
+                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Lotus+Temple/@28.553492,77.2562515,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce3c16e028cd1:0x653beb1ee85ec67a!8m2!3d28.553492!4d77.2588264!16s%2Fm%2F03bx9s0'  target='_blank' rel="noreferrer">Lotus Temple Rd, Bahapur, Shambhu Dayal Bagh, Kalkaji, New Delhi, Delhi 110019</a></span>
                             </div>
                         </div>
 
@@ -225,7 +225,7 @@ const Monument = () =>{
 
                             <div className="place__data">
                                 <h3 className="place__title">Agrasen Ki Baoli</h3>
-                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Agrasen+ki+Baoli/@28.626062,77.222462,17z/data=!3m1!4b1!4m6!3m5!1s0x390cfd3313d868d9:0x9084a965630af01b!8m2!3d28.626062!4d77.2250369!16s%2Fm%2F027z5xq' target='_blank'>J6GG+C2F, Hailey Road, KG Marg, near Diwanchand Imaging Centre, New Delhi, Delhi 110001</a></span>
+                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Agrasen+ki+Baoli/@28.626062,77.222462,17z/data=!3m1!4b1!4m6!3m5!1s0x390cfd3313d868d9:0x9084a965630af01b!8m2!3d28.626062!4d77.2250369!16s%2Fm%2F027z5xq'  target='_blank' rel="noreferrer">J6GG+C2F, Hailey Road, KG Marg, near Diwanchand Imaging Centre, New Delhi, Delhi 110001</a></span>
                             </div>
                         </div>
 
@@ -244,7 +244,7 @@ const Monument = () =>{
 
                             <div className="place__data">
                                 <h3 className="place__title">Chattarpur Temple</h3>
-                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Chattarpur+Mandir/@28.502323,77.1793751,17z/data=!3m1!4b1!4m6!3m5!1s0x390d1e3d1fc01263:0xc0b6b3968e9b385f!8m2!3d28.502323!4d77.18195!16s%2Fg%2F1hc2l424r' target='_blank'>Chhatarpur, South Delhi district, Delhi, India</a></span>
+                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Chattarpur+Mandir/@28.502323,77.1793751,17z/data=!3m1!4b1!4m6!3m5!1s0x390d1e3d1fc01263:0xc0b6b3968e9b385f!8m2!3d28.502323!4d77.18195!16s%2Fg%2F1hc2l424r'  target='_blank' rel="noreferrer">Chhatarpur, South Delhi district, Delhi, India</a></span>
                             </div>
                         </div>
 
@@ -263,7 +263,7 @@ const Monument = () =>{
 
                             <div className="place__data">
                                 <h3 className="place__title">Hauz Khas</h3>
-                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Hauz+Khas+Village,+Deer+Park,+Hauz+Khas,+New+Delhi,+Delhi+110016/@28.553331,77.1916359,17z/data=!3m1!4b1!4m6!3m5!1s0x390d1d8aa6bccb0f:0x357d3d8396615cec!8m2!3d28.5533997!4d77.1941654!16s%2Fg%2F11bz0bdcbv' target='_blank'>X-31, Block X, Deer Park, Hauz Khas, New Delhi, Delhi 110016</a></span>
+                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Hauz+Khas+Village,+Deer+Park,+Hauz+Khas,+New+Delhi,+Delhi+110016/@28.553331,77.1916359,17z/data=!3m1!4b1!4m6!3m5!1s0x390d1d8aa6bccb0f:0x357d3d8396615cec!8m2!3d28.5533997!4d77.1941654!16s%2Fg%2F11bz0bdcbv'  target='_blank' rel="noreferrer">X-31, Block X, Deer Park, Hauz Khas, New Delhi, Delhi 110016</a></span>
                             </div>
                         </div>
 
@@ -282,7 +282,7 @@ const Monument = () =>{
 
                             <div className="place__data">
                                 <h3 className="place__title">Jantar Mantar</h3>
-                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Jantar+Mantar/@28.6270547,77.2140518,17z/data=!3m1!4b1!4m6!3m5!1s0x390cfd4a694fc49b:0xa24a6ec962781b0c!8m2!3d28.6270547!4d77.2166267!16zL20vMDdyNmQ3' target='_blank'>Connaught Place, Sansad Marg, New Delhi, Delhi 110001</a></span>
+                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Jantar+Mantar/@28.6270547,77.2140518,17z/data=!3m1!4b1!4m6!3m5!1s0x390cfd4a694fc49b:0xa24a6ec962781b0c!8m2!3d28.6270547!4d77.2166267!16zL20vMDdyNmQ3'  target='_blank' rel="noreferrer">Connaught Place, Sansad Marg, New Delhi, Delhi 110001</a></span>
                             </div>
                         </div>
 
@@ -301,7 +301,7 @@ const Monument = () =>{
 
                             <div className="place__data">
                                 <h3 className="place__title">Purana Qila</h3>
-                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Purana+Qila/@28.6095744,77.2411622,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce3214b3b6771:0x139279610ab2ccb3!8m2!3d28.6095744!4d77.2437371!16zL20vMDZuZzRw' target='_blank'>Mathura Rd, Near Delhi Zoo, New Delhi, Delhi 110003</a></span>
+                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Purana+Qila/@28.6095744,77.2411622,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce3214b3b6771:0x139279610ab2ccb3!8m2!3d28.6095744!4d77.2437371!16zL20vMDZuZzRw'  target='_blank' rel="noreferrer">Mathura Rd, Near Delhi Zoo, New Delhi, Delhi 110003</a></span>
                             </div>
                         </div>
 
@@ -320,7 +320,7 @@ const Monument = () =>{
 
                             <div className="place__data">
                                 <h3 className="place__title">Amrit Udyan</h3>
-                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Amrit+Udyan/@28.6144404,77.1952861,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce3c6bdd55eb1:0x834571b6bf250fa6!8m2!3d28.6144404!4d77.197861!16s%2Fg%2F11pgjcbph0' target='_blank'>Rashtrapati Bhawan, President's Estate, New Delhi, Delhi 110004</a></span>
+                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Amrit+Udyan/@28.6144404,77.1952861,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce3c6bdd55eb1:0x834571b6bf250fa6!8m2!3d28.6144404!4d77.197861!16s%2Fg%2F11pgjcbph0'  target='_blank' rel="noreferrer">Rashtrapati Bhawan, President's Estate, New Delhi, Delhi 110004</a></span>
                             </div>
                         </div>
 
@@ -339,7 +339,7 @@ const Monument = () =>{
 
                             <div className="place__data">
                                 <h3 className="place__title">Gurudwara Bangla Sahib</h3>
-                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Gurudwara+Shri+Bangla+Sahib/@28.6263764,77.2064955,17z/data=!3m1!4b1!4m6!3m5!1s0x390cfd9eccc07d2d:0x6db044e71b8e8e3b!8m2!3d28.6263764!4d77.2090704!16zL20vMDRfMWtz' target='_blank'>Hanuman Road Area, Connaught Place, New Delhi, Delhi 110001</a></span>
+                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Gurudwara+Shri+Bangla+Sahib/@28.6263764,77.2064955,17z/data=!3m1!4b1!4m6!3m5!1s0x390cfd9eccc07d2d:0x6db044e71b8e8e3b!8m2!3d28.6263764!4d77.2090704!16zL20vMDRfMWtz'  target='_blank' rel="noreferrer">Hanuman Road Area, Connaught Place, New Delhi, Delhi 110001</a></span>
                             </div>
                         </div>
 
@@ -358,7 +358,7 @@ const Monument = () =>{
 
                             <div className="place__data">
                                 <h3 className="place__title">Lodi Garden</h3>
-                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Lodhi+Garden/@28.5930959,77.2171045,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce2ececc92e35:0x86c0764b1c0d4bea!8m2!3d28.5930959!4d77.2196794!16zL20vMDRfOHF0' target='_blank'>Lodhi Rd, Lodhi Gardens, Lodhi Estate, New Delhi, Delhi 110003</a></span>
+                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Lodhi+Garden/@28.5930959,77.2171045,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce2ececc92e35:0x86c0764b1c0d4bea!8m2!3d28.5930959!4d77.2196794!16zL20vMDRfOHF0'  target='_blank' rel="noreferrer">Lodhi Rd, Lodhi Gardens, Lodhi Estate, New Delhi, Delhi 110003</a></span>
                             </div>
                         </div>
 
@@ -377,7 +377,7 @@ const Monument = () =>{
 
                             <div className="place__data">
                                 <h3 className="place__title">Jama Masjid</h3>
-                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Jama+Masjid/@28.6506792,77.2308672,17z/data=!3m1!4b1!4m6!3m5!1s0x390cfd18df89b215:0xdd57369e29bf9d96!8m2!3d28.6506792!4d77.2334421!16zL20vMDR5emo1' target='_blank'>Jama Masjid Rd, Jama Masjid, Chandni Chowk, New Delhi, Delhi 110006</a></span>
+                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Jama+Masjid/@28.6506792,77.2308672,17z/data=!3m1!4b1!4m6!3m5!1s0x390cfd18df89b215:0xdd57369e29bf9d96!8m2!3d28.6506792!4d77.2334421!16zL20vMDR5emo1'  target='_blank' rel="noreferrer">Jama Masjid Rd, Jama Masjid, Chandni Chowk, New Delhi, Delhi 110006</a></span>
                             </div>
                         </div>
 
@@ -396,7 +396,7 @@ const Monument = () =>{
 
                             <div className="place__data">
                                 <h3 className="place__title">Hanuman Temple</h3>
-                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Hanuman+Mandir+Karol+bagh/@28.6450368,77.1954869,17z/data=!3m1!4b1!4m6!3m5!1s0x390d029da94bf9d9:0xda267c5baef74594!8m2!3d28.6450368!4d77.1980618!16s%2Fg%2F11cn8pr65y' target='_blank'>Desh Bandhu Gupta Rd, Block E, Jhandewalan Extension, Paharganj, New Delhi, Delhi 110055</a></span>
+                                <span className="place__subtitle"><a href='https://www.google.com/maps/place/Hanuman+Mandir+Karol+bagh/@28.6450368,77.1954869,17z/data=!3m1!4b1!4m6!3m5!1s0x390d029da94bf9d9:0xda267c5baef74594!8m2!3d28.6450368!4d77.1980618!16s%2Fg%2F11cn8pr65y'  target='_blank' rel="noreferrer">Desh Bandhu Gupta Rd, Block E, Jhandewalan Extension, Paharganj, New Delhi, Delhi 110055</a></span>
                             </div>
                         </div>
 

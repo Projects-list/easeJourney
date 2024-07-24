@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import { FiSun, FiFacebook, FiInstagram, FiYoutube, FiTwitter, FiArrowRightCircle, FiPhoneCall } from "react-icons/fi"
+import { FiFacebook, FiInstagram, FiTwitter, FiArrowRightCircle, } from "react-icons/fi"
 import { RiCloseFill } from "react-icons/ri";
 import "./Css/styles.css"
 import Images from './images'
@@ -81,12 +81,12 @@ return (
                 <div className="home__data">
                     <span className="home__data-subtitle">Discover your place</span>
                     <h1 className="home__data-title">Explore The <br /> Best <b>Beautiful <br /> Places</b></h1>
-                    <a href="http://localhost:3002" className="button">Explore</a>
+                    <a href="http://localhost:3002" className="button" rel="noopener noreferrer">Explore</a>
 
                 </div>
 
                 <div className="home__social">
-                    <a href="#/" target="_blank" rel='noreferrer' className="home__social-link">
+                    <a href="#/" target="_blank" rel='noreferrer'  className="home__social-link">
                         <i className="ri-facebook-box-fill">
                             <FiFacebook size={15} />
                         </i>
@@ -172,7 +172,7 @@ return (
                         <div className="place__data">
                             <h3 className="place__title">Amer Fort</h3>
                             <span className="place__subtitle"><a href='https://maps.app.goo.gl/Wm4M26gGErJQPutf8'
-                                    target='_blank'> Devisinghpura, Amer, Jaipur, Rajasthan 302001</a></span>
+                                    target='_blank' rel="noopener noreferrer"> Devisinghpura, Amer, Jaipur, Rajasthan 302001</a></span>
                         </div>
                     </div>
 
@@ -197,7 +197,7 @@ return (
                         <div className="place__data">
                             <h3 className="place__title">City Palace, Jaipur</h3>
                             <span className="place__subtitle"><a href='https://maps.app.goo.gl/fCX4G1Ty1JM52et69'
-                                    target='_blank'>Gangori Bazaar, J.D.A. Market, Pink City, Jaipur, Rajasthan
+                                    target='_blank' rel="noopener noreferrer">Gangori Bazaar, J.D.A. Market, Pink City, Jaipur, Rajasthan
                                     302002</a> </span>
                         </div>
                     </div>
@@ -223,7 +223,7 @@ return (
                         <div className="place__data">
                             <h3 className="place__title">Chittorgarh Fort, Chittorgarh</h3>
                             <span className="place__subtitle"><a href='https://maps.app.goo.gl/brDGYbiwGePgCsPC9'
-                                    target='_blank'>2, Ranthambhor Road, Vigyan Nagar, Sawai Madhopur, Ranthambhore
+                                    target='_blank' rel="noopener noreferrer">2, Ranthambhor Road, Vigyan Nagar, Sawai Madhopur, Ranthambhore
                                     Fort, Rajasthan 322001</a></span>
                         </div>
                     </div>
@@ -249,14 +249,14 @@ return (
                         <div className="place__data">
                             <h3 className="place__title">Ranthambore Fort, Sawai Madhopur</h3>
                             <span className="place__subtitle"><a href='https://maps.app.goo.gl/PanbesVUiPWTcp1U8'
-                                    target='_blank'>2, Ranthambhor Road, Vigyan Nagar, Sawai Madhopur, Ranthambhore
+                                    target='_blank' rel="noopener noreferrer">2, Ranthambhor Road, Vigyan Nagar, Sawai Madhopur, Ranthambhore
                                     Fort, Rajasthan 322001</a></span>
                         </div>
                     </div>
 
                     <button className="button button--flex place__button">
                         <i className="ri-arrow-right-line"> <a href='https://en.wikipedia.org/wiki/Ranthambore_Fort'
-                                target='_blank'>
+                                 target='_blank' rel="noreferrer">
                                 <FiArrowRightCircle size={15} />
                             </a></i>
                     </button>
@@ -275,7 +275,7 @@ return (
                         <div className="place__data">
                             <h3 className="place__title">Hawa Mahal</h3>
                             <span className="place__subtitle"><a href='https://maps.app.goo.gl/6Yq3ysHQPrMFL4aGA'
-                                    target='_blank'>Hawa Mahal Rd, Badi Choupad, J.D.A. Market, Pink City, Jaipur,
+                                    target='_blank' rel="noopener noreferrer">Hawa Mahal Rd, Badi Choupad, J.D.A. Market, Pink City, Jaipur,
                                     Rajasthan 302002</a></span>
                         </div>
                     </div>
@@ -299,7 +299,7 @@ return (
                         <div className="place__data">
                             <h3 className="place__title">Mehrangarh Fort, Jodhpur</h3>
                             <span className="place__subtitle"><a href='https://maps.app.goo.gl/rdo2rfWG2yMtHP2C7'
-                                    target='_blank'>Sodagaran Mohalla, Jodhpur, Rajasthan 342001</a></span>
+                                    target='_blank' rel="noopener noreferrer">Sodagaran Mohalla, Jodhpur, Rajasthan 342001</a></span>
                         </div>
                     </div>
 
@@ -322,7 +322,7 @@ return (
                         <div className="place__data">
                             <h3 className="place__title">Jaisalmer Fort, Jaisalmer</h3>
                             <span className="place__subtitle"><a href='https://maps.app.goo.gl/Q5tQ7igXHF7BNXAj9'
-                                    target='_blank'>Khejer Para, Manak Chowk, Amar Sagar Pol, Jaisalmer, Rajasthan
+                                    target='_blank' rel="noopener noreferrer">Khejer Para, Manak Chowk, Amar Sagar Pol, Jaisalmer, Rajasthan
                                     345001</a></span>
                         </div>
                     </div>
@@ -346,7 +346,7 @@ return (
                         <div className="place__data">
                             <h3 className="place__title">Kumbhalgarh Fort, Udaipur</h3>
                             <span className="place__subtitle"><a href='https://maps.app.goo.gl/3zUjECFGr1zkZMpi8'
-                                    target='_blank'>Kumbhalgarh, Rajasthan 313325</a></span>
+                                    target='_blank' rel="noopener noreferrer">Kumbhalgarh, Rajasthan 313325</a></span>
                         </div>
                     </div>
 
@@ -369,7 +369,7 @@ return (
                         <div className="place__data">
                             <h3 className="place__title">Junagarh Fort, Bikaner</h3>
                             <span className="place__subtitle"><a href='https://maps.app.goo.gl/vFyvQP8xcaxMevhy9'
-                                    target='_blank'>Bikaner Fort, Bikaner, Rajasthan 334001</a></span>
+                                    target='_blank' rel="noopener noreferrer">Bikaner Fort, Bikaner, Rajasthan 334001</a></span>
                         </div>
                     </div>
 
@@ -386,8 +386,8 @@ return (
 
         <div className="place__header">
             <a href="https://www.tourism.rajasthan.gov.in/packages.html" target='blank' className="button-24"
-                role="button"> Explore Packages</a>
-            <a href="https://tourist.rajasthan.gov.in/#/" className="button-24" target='blank' role="button">Book
+                role="button" rel="noopener noreferrer"> Explore Packages</a>
+            <a href="https://tourist.rajasthan.gov.in/#/" className="button-24" target='blank' role="button" rel="noopener noreferrer">Book
                 Tickets</a>
         </div>
         <section className="place section" id="place">
@@ -398,7 +398,7 @@ return (
             <img
               className="card-img-top"
               src="https://www.giheritage.com/uploads/product/molela-clay-work-jaman1-h.jpg"
-              alt="Card image cap"
+              alt="Card_image_cap"
             />
             <div className="card-body">
               <h5 className="card-title">
@@ -435,7 +435,7 @@ return (
             <img
               className="card-img-top"
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Blue_pottery_pilgrim_flask.jpg/220px-Blue_pottery_pilgrim_flask.jpg"
-              alt="Card image cap"
+              alt="Card_image_cap"
             />
             <div className="card-body">
               <h5 className="card-title">
@@ -472,7 +472,7 @@ return (
             <img
               className="card-img-top"
               src="https://www.sundarisilks.com/cdn/shop/articles/gems-of-jaipur-sundari-silks-blog-cover.jpg?v=1617338507"
-              alt="Card image cap"
+              alt="Card_image_cap"
             />
             <div className="card-body">
               <h5 className="card-title">
@@ -509,7 +509,7 @@ return (
             <img
               className="card-img-top"
               src="https://media.cnn.com/api/v1/images/stellar/prod/220906104800-03-bhujia-snack-food-india-stall.jpg?c=original"
-              alt="Card image cap"
+              alt="Card_image_cap"
             />
             <div className="card-body">
               <h5 className="card-title">

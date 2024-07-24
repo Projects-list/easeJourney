@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+
 import { FiSun } from "react-icons/fi";
 import "./Css/styles.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -8,8 +8,7 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 
 const About = () => {
-  const [showMapPopup, setShowMapPopup] = useState(false);
-  const [mapLink, setMapLink] = useState('');
+
 
   return (
     <>

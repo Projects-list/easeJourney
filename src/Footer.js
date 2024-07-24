@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Css/styles.css"
-import {  FiFacebook, FiInstagram, FiYoutube, FiTwitter, FiPhoneCall } from "react-icons/fi"
+import {  FiFacebook, FiInstagram, FiYoutube, FiTwitter,} from "react-icons/fi"
 
 function Footer(){
 
